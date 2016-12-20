@@ -1,21 +1,23 @@
-// Owl Carosul Slider styles 
-
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
-    responsiveClass: true,
-    responsive :{
-        0 :{
-            items:2,
-            nav:true
+    margin:13.5,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
         },
+        420:{
+            items:2,
+            nav: false
+    },
         600:{
             items:3,
             nav:false
         },
         1000:{
             items:5,
-            nav:true,
+            nav:false,
             loop:false
         }
     }

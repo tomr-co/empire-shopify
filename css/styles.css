@@ -178,9 +178,21 @@ h3 {
 /* Brand Slider */
 
 .logo-card {
-    margin: 0 13.5px;
+    margin: 0 auto;
+    width: 155px;
+    
 }
 
-.logo-slider {
-    margin-top: 100px;
+.owl-carousel {
+    margin-top: 50px;
+
 }
+
+
+.owl-dots {
+    margin-top: 60px !important;
+}
+
+
+
+
