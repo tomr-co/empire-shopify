@@ -6,6 +6,8 @@ h3,
 h4,
 h5,
 h6,
+h7,
+h8,
 p {
     font-family: 'Open Sans', sans-serif;
 }
@@ -229,11 +231,120 @@ h7 {
 
 /* Blog Thumbnails */
 
-.blog-thumbnail {
-    margin-left: 13.5px;
-    margin-right: 13.5px;
+.blog-title {
+    margin-top: 100px;
 }
+
+.blog-thumbnail {
+    margin-bottom: 42px;
+    box-sizing: border-box;
+    padding: 0 13.5px;
+}
+
+
 
 .blog-thumbnail img {
     width: 100%;
+}
+
+    /* Text styles */
+.blog-catagory-breadcrumb {
+    color: #888686;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-post-title {
+    font-size: 15px;
+    color: #000;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+@media (min-width: 640px ) {
+    .blog-thumbnail:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    .blog-thumbnail:nth-child(3) {
+        display: block;
+    }
+}
+
+/* Instagram Plugin */
+
+.instagram-title {
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.instagram-caption {
+    font-size: 14px;
+    color: #888686;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+/* Testimonials */
+
+.testimonials {
+    margin-top: 100px;
+}
+
+.testimonial-box {
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-left: 13.5px;
+    margin-right: 13.5px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.date {
+    font-family: 'open sans', sans-serif;
+    font-size: 10px;
+    color: #888686;    
+}
+
+.facey-icon {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+
+.see-more-facebook {
+    background-color: #3b5998;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.see-more-facebook a{
+    text-decoration: none;
+}
+
+@media (min-width: 640px) {
+    .testimonial-box:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .testimonial-box:nth-child(3) {
+        display: block;
+    }
 }
