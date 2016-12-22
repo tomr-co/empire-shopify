@@ -16,12 +16,11 @@
   </head>
      
     <body>
-    
       <nav>
          <div class="row align-middle og-wide">
            
                 <div class="small-4 columns">
-                    <a href="#"><img src="/img/Burger-menu.png" alt="Burger-menu" id="Burger-menu"></a>
+                    <a href="#"><img src="/img/Burger-menu.png" alt="Burger-menu" id="Burger-menu"></a><span class="menu-title">Menu</span>
                     <a href="#"><img src="/img/Search-icon.png" alt="Search" id="Search-icon"></a>
                 </div>
             
@@ -31,12 +30,15 @@
             
                 <div class="small-4 columns" id="account-cart">
                 
-                    <a href="#"><img src="/img/Account-icon.png" alt="Account-Icon" id="Account-icon"></a>
-                    <a href="#"><img src="/img/Cart-icon.png" alt="Cart Icon" id="Cart-icon"></a><span id="Cart">(O)</span>
+                    <a href="#"><img src="/img/Account-icon.png" alt="Account-Icon" id="Account-icon"></a><span class="account-text"><b>Login</b>/ Sign up </span>
+                    <a href="#"><img src="/img/Cart-icon.png" alt="Cart Icon" id="Cart-icon"></a><span id="Cart">(0)</span><span class="cart-cost"> &#36; 0.00</span>
                
                 </div>
              
          </div>
+         
+         
+         
      </nav>
     
     <div class="row full-width">
@@ -303,7 +305,7 @@
     
   <div class="row align-center og-wide">
         
-    <div class="small-12 medium-8 large-4 columns large-order-2">
+    <div class="small-12 medium-8 large-4 columns large-order-2 email-sign-up-section">
         <form>
             <div class="row align-center">
                <div class="small-12 columns">
@@ -342,7 +344,7 @@
         
     </div>
     
-       <div class="small-12 large-4 columns About-us large-order-3">
+       <div class="small-12 large-4 columns about-us large-order-3">
         
         <div class="row align-center">
             
@@ -371,10 +373,12 @@
    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/vendor/jquery.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
     <script src="js/app.js"></script>
     
     <script>
@@ -383,6 +387,7 @@
             $(".owl-carousel").owlCarousel();
         });
         
+      
     </script>
   </body>
 </html>

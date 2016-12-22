@@ -110,6 +110,20 @@ row {
     padding-left: 10px;
 }
 
+/* Menu text hide on mobile */
+.menu-title {
+    display: none;
+}
+
+.account-text {
+    display: none;
+}
+
+.cart-cost {
+    display: none;
+}
+
+
 /* Nav Typography */
 
 #Cart {
@@ -120,6 +134,39 @@ row {
 
 #account-cart {
     text-align: right;
+}
+
+
+/* Nav media queries */
+
+@media (min-width: 1024px ) {
+    
+    .menu-title {
+        display: inline-block;
+        font-weight: 800;
+        font-size: 11px;
+        text-transform: uppercase;
+        padding-right: 10px;
+    }
+    
+    .account-text {
+        display: inline-block;
+        font-weight: 800;
+        font-size: 11px;
+        text-transform: uppercase;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .cart-cost {
+        display: inline-block;
+        font-weight: 800;
+        font-size: 11px;
+        text-transform: uppercase;
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+    
 }
 
 /**********
