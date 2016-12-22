@@ -1,3 +1,13 @@
+/* Table of content */ /*
+
+1. Index.html styles 
+    1.1
+    1.2 etc...
+
+2. Collection.html styles 
+
+*/
+
 /* Typography */
 
 h1,
@@ -210,6 +220,10 @@ h3 {
 .product {
     margin-bottom: 40px;
 
+}
+
+.product img {
+    width: 100%;
 }
 
 .price {
@@ -509,4 +523,57 @@ footer {
     
     
 }
+
+/*************** 2.Collection.html styles ***********************/
+
+/* 2.1 Featured logo slider */
+
+#brand-slider-title {
+    margin-top: 80px;
+}
+
+/* 2.2 Collection block */
+
+/* Load more collection button */
+.load-more-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: 900;
+}
     
+
+/* Collection filter menu */
+
+.filter-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+i {
+    height: 10px;
+}
+
+.filter-header {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Open sans', sans-serif;
+}
+
+.collection-filter {
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 60px;
+}
+
+.collection-filter li {
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+}
